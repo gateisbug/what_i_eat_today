@@ -14,12 +14,7 @@ export default defineConfig({
       { find: '@assets', replacement: p('./src/assets') },
       { find: '@icon', replacement: p('./src/assets/icon') },
       { find: '@styles', replacement: p('./src/assets/stylesheet') },
-      { find: '@components', replacement: p('./src/components') },
-      { find: '@domain', replacement: p('./src/domain') },
-      { find: '@hooks', replacement: p('./src/hooks') },
-      { find: '@pages', replacement: p('./src/pages') },
       { find: '@static', replacement: p('./src/static') },
-      { find: '@types', replacement: p('./src/types') },
       { find: '@views', replacement: p('./src/views') },
     ]
   },

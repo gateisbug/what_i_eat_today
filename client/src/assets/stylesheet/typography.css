@@ -1,12 +1,6 @@
 .ff {
   font-family: Pretendard, Interm Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
-.ffr {
-  font-family: Roboto, Interm Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-}
-.ffo {
-  font-family: Orbitron, Interm Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-}
 
 .fcw {
   color: var(--font-weak);
@@ -16,6 +10,9 @@
 }
 .fcs {
   color: var(--font-strong);
+}
+.fcp {
+  color: var(--primary);
 }
 
 .fzm, .fzh1, h1 { /* font-size: megazine */
