@@ -3,6 +3,7 @@ import * as styled_components from 'styled-components';
 import * as styled_components_dist_types from 'styled-components/dist/types';
 import * as react from 'react';
 import { ChangeEvent } from 'react';
+import { P as PreferScheme } from '../common.d-Bt3q9sPo.js';
 
 interface TextareaTheme {
     primary?: string;

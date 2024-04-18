@@ -7,6 +7,7 @@ import {
 } from 'react';
 import type { ReactNode, Dispatch, SetStateAction, ForwardedRef } from 'react';
 
+import { PreferScheme } from '../common';
 import { prefix } from '../utils';
 
 export interface SelectTheme {

@@ -1,6 +1,7 @@
 import { useCallback, useRef } from 'react';
 import type { ChangeEvent } from 'react';
 
+import { PreferScheme } from '../common';
 import { prefix } from '../utils';
 
 export interface TextareaTheme {

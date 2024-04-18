@@ -11,7 +11,10 @@
   "license": "MIT",
   "scripts": {
     "client": "yarn workspace client",
-    "kit": "yarn workspace kit"
+    "kit": "yarn workspace kit",
+    "dev": "yarn client dev",
+    "build": "yarn client build",
+    "preview": "yarn client preview"
   },
   "dependencies": {
     "react": "^18.2.0",

@@ -1,3 +1,4 @@
+import { PreferScheme } from '../common';
 import { prefix } from '../utils';
 
 export type SkeletonVarientType = 'text' | 'circle' | 'paragraph';

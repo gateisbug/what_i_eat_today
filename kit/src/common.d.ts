@@ -1,8 +1,8 @@
 // noinspection JSDeprecatedSymbols
 
-type NodeType = string | JSX.Element | JSX.Element[] | null;
+export type NodeType = string | JSX.Element | JSX.Element[] | null;
 
-type PreferScheme = {
+export type PreferScheme = {
   light?: string;
   dark?: string;
 };

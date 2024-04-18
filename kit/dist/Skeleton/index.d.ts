@@ -2,6 +2,7 @@ import * as react_jsx_runtime from 'react/jsx-runtime';
 import * as styled_components from 'styled-components';
 import * as styled_components_dist_types from 'styled-components/dist/types';
 import * as react from 'react';
+import { P as PreferScheme } from '../common.d-Bt3q9sPo.js';
 
 type SkeletonVarientType = 'text' | 'circle' | 'paragraph';
 interface SkeletonTheme {

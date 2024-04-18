@@ -4,6 +4,15 @@ import * as react from 'react';
 import { MouseEvent as MouseEvent$1, ReactNode, ChangeEvent } from 'react';
 import * as react_jsx_runtime from 'react/jsx-runtime';
 
+// noinspection JSDeprecatedSymbols
+
+type NodeType = string | JSX.Element | JSX.Element[] | null;
+
+type PreferScheme = {
+  light?: string;
+  dark?: string;
+};
+
 interface BadgeTheme {
     primary?: string;
     onPrimary?: string;

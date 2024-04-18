@@ -1,3 +1,4 @@
+import { NodeType } from '../common';
 import { prefix } from '../utils';
 
 export interface BadgeTheme {

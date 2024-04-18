@@ -1,5 +1,6 @@
 import { ChangeEvent, ReactNode } from 'react';
 
+import { PreferScheme } from '../common';
 import { prefix } from '../utils';
 
 export interface RadioTheme {

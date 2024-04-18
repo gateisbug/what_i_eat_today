@@ -1,5 +1,6 @@
 import { ChangeEvent } from 'react';
 
+import { PreferScheme } from '../common';
 import { prefix } from '../utils';
 
 export interface InputTheme {

@@ -5,6 +5,7 @@ import {
   type VariantType,
   type VerticalType,
 } from '../Badge/preamble';
+import { PreferScheme } from '../common';
 import { prefix } from '../utils';
 
 export interface CheckboxTheme {
