@@ -3882,6 +3882,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"corepack@npm:^0.26.0":
+  version: 0.26.0
+  resolution: "corepack@npm:0.26.0"
+  bin:
+    corepack: ./dist/corepack.js
+    pnpm: ./dist/pnpm.js
+    pnpx: ./dist/pnpx.js
+    yarn: ./dist/yarn.js
+    yarnpkg: ./dist/yarnpkg.js
+  checksum: 10c0/1c345ff83ec2c0949fb9eb6637e96de8c2ecdb3c84bba3a4a20487316a8b8d5b0145c8c10bf0b25b8ec12e1aba36f703fe0507aa43a96d78b1948ca125d30d06
+  languageName: node
+  linkType: hard
+
 "cross-spawn@npm:^5.0.1":
   version: 5.1.0
   resolution: "cross-spawn@npm:5.1.0"
@@ -9875,6 +9888,7 @@ __metadata:
     "@types/react-dom": "npm:^18.2.25"
     "@typescript-eslint/eslint-plugin": "npm:^7.0.1"
     "@typescript-eslint/parser": "npm:^7.7.0"
+    corepack: "npm:^0.26.0"
     eslint: "npm:^8.0.1"
     eslint-config-love: "npm:^47.0.0"
     eslint-config-prettier: "npm:^9.1.0"
