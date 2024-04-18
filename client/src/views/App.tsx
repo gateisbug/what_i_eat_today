@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useCallback, useDeferredValue, useState } from 'react';
 import styled from 'styled-components';
 
 import datasetJSON from '@static/dataset.json';
 import { Select } from 'ui';
 import { Button } from 'ui/Button';
 
+// noinspection CssUnusedSymbol
 const Page = styled.main`
   display: flex;
   width: 100%;
@@ -26,6 +27,10 @@ const Page = styled.main`
       cursor: pointer;
     }
   }
+  .category-box {
+    text-align: center;
+    min-width: 64px;
+  }
 `;
 
 const selectItem = [
@@ -38,12 +43,22 @@ const selectItem = [
 function App() {
   const [category, setCategory] = useState<string>(selectItem[0].value);
   const [food, setFood] = useState<string>('');
+  const deferredFood = useDeferredValue(food);
 
   const getRandomInt = (min: number, max: number) => {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
   };
+
+  const getCategoryData = useCallback(() => {
+    switch (category) {
+      case '방문/배달':
+        return datasetJSON.filter((v) => v.type !== '디저트');
+      default:
+        return datasetJSON.filter((v) => v.type === category);
+    }
+  }, [category]);
 
   return (
     <Page className='ff'>
@@ -57,15 +72,16 @@ function App() {
             }}
             defaultValue={selectItem[0].value}
           >
-            {category}
+            <div className='category-box'>{category}</div>
           </Select>
         </div>
         <span>뭐먹지?</span>
       </h1>
       <Button
         onClick={() => {
-          const index = getRandomInt(0, datasetJSON.length);
-          setFood(datasetJSON[index].name);
+          const data = getCategoryData();
+          const index = getRandomInt(0, data.length);
+          setFood(data[index].name);
         }}
       >
         <span className='ff fzp fwm'>아무거나</span>
@@ -73,7 +89,7 @@ function App() {
       <h3>
         {food.length > 0 ? (
           <span>
-            <span className='fcp'>{food}</span>&nbsp;어떰?
+            <span className='fcp'>{deferredFood}</span>&nbsp;어떰?
           </span>
         ) : (
           <span>&nbsp;</span>
