@@ -2,6 +2,7 @@
   "name": "what_i_eat_today",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
   "repository": "https://github.com/gateisbug/what_i_eat_today.git",
   "workspaces": [
     "client",
@@ -15,7 +16,8 @@
     "dev": "yarn client dev",
     "build": "yarn client build",
     "preview": "yarn client preview",
-    "deploy": "yarn client deploy"
+    "deploy": "yarn client deploy",
+    "kit-install": "yarn client install --check-files"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -39,6 +41,5 @@
     "eslint-plugin-react": "^7.34.1",
     "prettier": "^3.2.5",
     "typescript": "^5.4.4"
-  },
-  "packageManager": "yarn@4.1.1"
+  }
 }
