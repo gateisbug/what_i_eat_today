@@ -14,7 +14,8 @@
     "kit": "yarn workspace kit",
     "dev": "yarn client dev",
     "build": "yarn client build",
-    "preview": "yarn client preview"
+    "preview": "yarn client preview",
+    "deploy": "yarn client deploy"
   },
   "dependencies": {
     "react": "^18.2.0",
