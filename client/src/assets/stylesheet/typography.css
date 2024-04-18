@@ -1,0 +1,62 @@
+.ff {
+  font-family: Pretendard, Interm Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.ffr {
+  font-family: Roboto, Interm Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.ffo {
+  font-family: Orbitron, Interm Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.fcw {
+  color: var(--font-weak);
+}
+.fc {
+  color: var(--font);
+}
+.fcs {
+  color: var(--font-strong);
+}
+
+.fzm, .fzh1, h1 { /* font-size: megazine */
+  font-size: 2rem; /* 32px */
+}
+.fzn, .fzh2, h2 { /* font-size: news */
+  font-size: 1.75rem; /* 28px */
+}
+.fzt, .fzh3, h3 { /* font-size: title */
+  font-size: 1.5rem; /* 24px */
+}
+.fzh, .fzh4, h4 { /* font-size: header */
+  font-size: 1.25rem; /* 20px */
+}
+.fzs, .fzs1, h5, h6 { /* font-size: subtitle */
+  font-size: 1.125rem; /* 18px */
+}
+.fzp, .fzp1, p { /* font-size: paragraph */
+  font-size: 1rem; /* 16px */
+}
+.fzb, .fzp2 { /* font-size: body */
+  font-size: 0.875rem; /* 14px */
+}
+.fza, .fzp3 { /* font-size: annotation */
+  font-size: 0.75rem;
+}
+.fzc { /* font-size: caption */
+  font-size: 0.625rem;
+}
+
+.fwb {
+  font-weight: 700;
+}
+.fwm {
+  font-weight: 500;
+}
+.fwr {
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+}

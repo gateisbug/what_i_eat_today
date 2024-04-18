@@ -1,0 +1,23 @@
+:root {
+  font-family: Pretendard, Roboto, Orbitron, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25rem;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  transition: color 0.15s ease-in-out,
+  background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0d1117;
+}
