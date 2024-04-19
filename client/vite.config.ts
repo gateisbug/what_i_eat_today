@@ -7,6 +7,7 @@ const p = (src: string) => resolve(__dirname, src);
 // https://vitejs.dev/config/
 // noinspection JSUnusedGlobalSymbols
 export default defineConfig({
+  base: '/what_i_eat_today/',
   plugins: [react()],
   resolve: {
     alias: [
