@@ -2,7 +2,7 @@
   "homepage": "https://gateisbug.github.io/what_i_eat_today/",
   "name": "client",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
