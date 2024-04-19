@@ -20,6 +20,7 @@
     "kit-install": "yarn client install --check-files"
   },
   "dependencies": {
+    "@napi-rs/magic-string": "^0.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

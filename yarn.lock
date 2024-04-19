@@ -3756,7 +3756,6 @@ __metadata:
     react-dom: "npm:^18.2.0"
     styled-components: "npm:^6.1.8"
     typescript: "npm:^5.4.4"
-    ui: "file:../kit"
     vite: "npm:^5.2.0"
   languageName: unknown
   linkType: soft
@@ -9718,21 +9717,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ui@file:../kit::locator=client%40workspace%3Aclient":
-  version: 1.0.0
-  resolution: "ui@file:../kit#../kit::hash=9d82cd&locator=client%40workspace%3Aclient"
-  dependencies:
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    styled-components: "npm:^6.1.8"
-  peerDependencies:
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    styled-components: ^6.1.8
-  checksum: 10c0/a871199fe7c1db36ce8701bfae89cfdd35342abad053375033638bae2ddaa8078c8710ba694f05553d4736343a98887f38a2552c5b31c8f70ac5d86b74325d45
-  languageName: node
-  linkType: hard
-
 "unbox-primitive@npm:^1.0.2":
   version: 1.0.2
   resolution: "unbox-primitive@npm:1.0.2"
@@ -9882,6 +9866,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "what_i_eat_today@workspace:."
   dependencies:
+    "@napi-rs/magic-string": "npm:^0.3.4"
     "@types/eslint": "npm:^8"
     "@types/node": "npm:^20.12.7"
     "@types/react": "npm:^18.2.79"
