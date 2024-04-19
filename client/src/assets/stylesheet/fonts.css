@@ -5,7 +5,7 @@
   font-display: swap;
   /*noinspection CssUnknownTarget*/
   src: local('Pretendard Bold'),
-  url('/fonts/Pretendard/Pretendard-Bold.woff') format('woff');
+  url('/fonts/Pretendard-Bold.woff') format('woff');
 }
 @font-face {
   font-family: Pretendard;
@@ -14,7 +14,7 @@
   font-display: swap;
   /*noinspection CssUnknownTarget*/
   src: local('Pretendard Medium'),
-  url('/fonts/Pretendard/Pretendard-Medium.woff') format('woff');
+  url('/fonts/Pretendard-Medium.woff') format('woff');
 }
 @font-face {
   font-family: Pretendard;
@@ -23,5 +23,5 @@
   font-display: swap;
   /*noinspection CssUnknownTarget*/
   src: local('Pretendard Regular'),
-  url('/fonts/Pretendard/Pretendard-Regular.woff') format('woff');
+  url('/fonts/Pretendard-Regular.woff') format('woff');
 }
