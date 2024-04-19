@@ -41,5 +41,6 @@
     "eslint-plugin-react": "^7.34.1",
     "prettier": "^3.2.5",
     "typescript": "^5.4.4"
-  }
+  },
+  "packageManager": "yarn@4.1.1"
 }
